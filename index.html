@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 5px;
+            max-width: 800px;   /* ✅ responsive width */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* ✅ Media Query for mobile devices */
+        @media (max-width: 768px) {
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            header p {
+                font-size: 14px;
+            }
+
+            section {
+                padding: 10px;
+            }
+
+            .card {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="lightgrey">
+<header>
+    <h1>SAKSHI MHASKE</h1>
+    <h2>DIV:-C</h2>
+    <h3>BRANCH:-AIDS</h3>
+    <h4>ROLL NO:-AD1331</h4>
+    <p>I am Web Developer.
+        An AI Data Scientist blends statistics, computer science, and machine learning to<br>
+         extract insights from data, building models to predict outcomes, automate processes, <br>
+         and guide business decisions, essentially acting as a bridge between raw data and<br>
+          intelligent applications. Key tasks involve data collection, cleaning, analysis, <br>
+          modeling (using Python/R/SQL), and communicating findings,focusing on AI/ML applications<br>
+         like NLP, deep learning, and bias reduction, making it a highly versatile and in-demand<br>
+          tech career. <br>
+    </p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am a beginner web developer learning HTML and CSS.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <font color:"orange">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic C Programming</li>
+        </ul>
+    </div>
+</section>
+</font>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: 1234567890</p>
+    </div>
+</section>
+
+<footer>
+    <p>My Portfolio</p>
+</footer>
+
+</body>
+</html>
